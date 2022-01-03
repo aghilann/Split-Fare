@@ -133,9 +133,12 @@ Project Link: [https://dashboard.heroku.com/apps/split-fare](https://dashboard.h
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Corey Schafer](https://www.youtube.com/c/Coreyms) - What a legendary YouTuber, you have the best courses on Python and it's frameworks, you even go as far as provide methods for people on all operating systems to follow along. You do this all for free, you have helped many people around the world learn to code, without expeting a dime. You definitely derserve a thumbs up for the YouTube algorithm. 
+
+* [LucasLemanowicz](https://github.com/LucasLemanowicz) - Thank you so much for sacrifising your time to help me, I know you are very busy but I know just how much you kind you are from the fact that you are willing not just help but guide me through my Flask questions, along with the field of Software as well.
+You know very well that our relationship has little to no real benefit for you - unless you enjoy to see somebody so horrible at programming - , but everything to me, yet you are still willing to do as much as you can to help people like me sucseed. 
+
+* [Ansel Hartanto](https://github.com/ansel-rangers11) - You were willing to dedicate over an hour to help somebody whoose face you have never even seen, you were willing to spent the time combing through WALLS OF TEXT from my Heroku logs, a dreadful task indeed. You are also my go-to guy when it comes to BUCS questions!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
