@@ -63,10 +63,10 @@ SplitFares allows users to create a post with details regarding where they are g
 
 * [Python](https://www.python.org/)
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+* [SQLite3](https://www.sqlite.org/index.html)
 * [Bootstrap](https://getbootstrap.com/)
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [SQLite3](https://www.sqlite.org/index.html)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
