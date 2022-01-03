@@ -1,0 +1,23 @@
+{% extends "layout.html" %} 
+
+{% block content %}
+<form class="form-inline my-2 my-lg-0 p-1" method="POST" action="{{ url_for('posts.search') }}">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="searched"> 
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    <br>
+{% for post in posts %}
+        <article class="media content-section">
+          <img class="rounded-circle article-img" src="{{ url_for('static', filename='profile_pics/' + post.author.image_file) }}">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="{{ url_for('users.user_posts', username=post.author.username) }}">{{ post.author.username }}</a>
+              <small class="text-muted">{{ post.date_posted.strftime('%Y-%m-%d') }}</small>
+            </div>
+            <h2><a class="article-title" href="{{ url_for('posts.post', post_id=post.id) }}">{{ post.title }}</a></h2>
+            <p class="article-content">{{ post.content }}</p>
+            <p class="article-content lead">{{ post.date_time }}</p>
+          </div>
+        </article>
+    {% endfor %}
+{% endblock content %}

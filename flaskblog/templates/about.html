@@ -1,0 +1,96 @@
+{% extends "layout.html" %} {% block content %}
+<div style="height: 50rem; margin: 10em">
+  <p class="h1 p-5 title-about">About Page</p>
+  <!-- <p class="lead p-4">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, nemo
+    nesciunt voluptatum optio incidunt natus voluptatibus quia delectus quaerat
+    temporibus.
+  </p> -->
+
+  <!-- <p class="sub-title-about p-4">Hello</p> -->
+  <p class="lead">January 1st, 2022</p>
+  <p class="pb-2">
+    SplitFares allows users to create a post with details regarding where they
+    are going, and at what time. It allows them to display their contact
+    information so inquiries can be made externally through the provided contact
+    details. Other users may view the site and its posts and attempt to search
+    for users leaving from/to UBC at the same time and arriving at the same
+    destination. Once they get in contact, they can arrange to split the fare
+    for their given mode of transportation, whether that be splitting a taxi
+    fare, or paying for half the gas.
+  </p>
+  <p class="h3 sub-title-about">How It Began</p>
+  <p class="pb-2">
+    Hello {{ current_user.username }}, if you’re anything like me, you hate
+    spending unnecessary money. Let me pose a situation, you just finished your
+    final exams and need to get home and pack for your 6 AM flight, it’s raining
+    and it’s cold outside - not an unusual sight. There are no busses to take to
+    the airport running so late at night, nor do you want to spend the hour-plus
+    in commute hauling your bags across the city public transit.
+  </p>
+  <p class="pb-2">
+    You decide to take a taxi from your dorm to the airport, you don’t have any
+    other viable alternatives so it leaves you no choice. You order your taxi
+    and patiently wait during your ride to the local airport. As you pay the
+    driver, you are faced with a steep $50 charge for a sub 20-minute ride. You
+    enter the airport knowing just paid the same amount for a 15-minute taxi
+    ride as your flight home. Yes really, flights on the West Coast are that
+    cheap! Once you enter the airport with your eyes half shut, you see three
+    distinct individuals all with UBC merchandise. I approach all three
+    individuals and asked how they arrived at the airport, the first was dropped
+    off by a local relative. The latter two took their own individual taxies,
+    both departing from UBC at the same time as me. Each of us paid $50, to
+    leave the same place at the same time to arrive at the same destination. I
+    was determined to never pay $50 for a ride to the airport ever again.
+  </p>
+  <p class="pb-2">
+    The next time I needed a ride to the airport, I decided to try to find
+    somebody going to the airport at the same time. I needed a way to find and
+    connect with other UBC students going to the airport at the same time so we
+    could split the cost of the ride. I posted a message on UBC Sub-Reddit but I
+    had no luck. I had no choice but to pay another $50 to take a cab to the
+    airport only to once again see other UBC students arrive in their separate
+    taxis. I knew at that point I had to find a way to connect individuals going
+    to the same destination so they can carpool and split the cost.
+  </p>
+  <p class="pb-2">
+    Although carpool sites already exist, they almost exclusively target
+    inter-city travel, and never intra-city travel. This is for good reason,
+    nobody needs to find rideshare when travelling within the city, they can
+    just ask a friend or most likely use their car. Although the situation is
+    different with UBC students, UBC hosts a large number of domestic students
+    from outside BC and international students. It is highly unlikely that these
+    students own a car, making short commutes not accessible by transit costly.
+    Many of these students live either live on campus or close by given that
+    they must make the commute daily. The large UBC student population along
+    with how closely populated they are means when travelling, they always have
+    the same takeoff or destination location in common.
+  </p>
+  <p class="pb-2">
+    That is why I created SplitFares, this site allows users to create a post
+    with details regarding where they are going, and at what time. It allows
+    them to display their contact information so inquiries can be made
+    externally through the provided contact details. Other users may view the
+    site and its posts and attempt to search for users leaving from/to UBC at
+    the same time and arriving at the same destination. Once they get in
+    contact, they can arrange to split the fare for their given mode of
+    transportation, whether that be splitting a taxi fare, or paying for half
+    the gas.
+  </p>
+  <p class="pb-2">
+    This site was created in my journey to learn Flask - a micro web framework
+    written in Python. I decided to make this site as a way of displaying my
+    progress along with taking a crack at a problem many students faced. I hope
+    I was able to save you some money. If you have any feedback or would like to
+    contact me, reach out at resetpassforflasksite@gmail.com. Thank you for
+    visiting my site, have a great day!
+  </p>
+  <!-- <p class="sub-title-about p-4">Hello</p>
+  <p class="pl-4">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, nemo
+    nesciunt voluptatum optio incidunt natus voluptatibus quia delectus quaerat
+    temporibus.
+  </p> -->
+</div>
+
+{% endblock content %}
