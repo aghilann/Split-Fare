@@ -14,7 +14,7 @@
     <br />
     <br />
     <br />
-    <a href="https://split-fare.herokuapp.com/">View Production Site</a>
+    <a href="https://split-fare.herokuapp.com/">Production Site</a>
     ·
     <a href="mailto:nathanaghilan@gmail.com">Report Bug</a>
     ·
@@ -74,10 +74,16 @@ SplitFares allows users to create a post with details regarding where they are g
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
+- Template Inheritance from layout.html
+- User Registration and Login Forms
+- User Registration and Login Information saved to SQLite3 via SQL-Alchemy ORM
+- Ability to alter user account details and profile picture
+- CRUD Functionality along with the addition of a "SUPERUSER" moderation account
+- Implementing Pagination with buttons displayed with Bootsrap classes
+- Email and Password Reset
+- Blueprints and Configuration
+- Custom Error Pages
+- Deployment of Site on Heroku via GitHub repository
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
